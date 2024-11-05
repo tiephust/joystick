@@ -27,7 +27,7 @@ Dự án này nhằm mục tiêu chế tạo một thiết bị chơi game HID J
    - Rotary Encoder library
 3. Clone dự án về máy:
    ```bash
-   git clone https://github.com/yourusername/hid-fishing-rod.git
+   git clone https://github.com/tiephust/joystick.git
    ```
 4. Nạp mã nguồn vào ESP32 qua **PlatformIO** hoặc **Arduino IDE** bằng các bước sau:
    - Mở **PlatformIO** hoặc **Arduino IDE**.
@@ -44,6 +44,7 @@ Dự án này nhằm mục tiêu chế tạo một thiết bị chơi game HID J
 - **ESP32**: Vi điều khiển hỗ trợ Bluetooth và các chức năng xử lý dữ liệu cảm biến.
 - **MPU9250**: Cảm biến 9 trục (gia tốc, con quay hồi chuyển, từ trường) dùng để thu thập thông số chuyển động.
 - **Rotary Encoder**: Xác định vị trí góc quay của cần câu.
+- **LCD**: Hiển thị thông số
 - **PlatformIO/Arduino IDE**: Môi trường phát triển tích hợp cho lập trình nhúng.
 
 ## Các tính năng
